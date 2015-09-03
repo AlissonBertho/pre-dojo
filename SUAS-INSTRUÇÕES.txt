@@ -1,2 +1,25 @@
-Coloque aqui suas instruções ou comentários que ache útil/relevantes para possamos ler 
-quando estivermos avaliando a sua solução
+Execucao pre-dojo 
+
+1. Gere um jar executavel* ou atraves de alguma IDE execute o metodo main da classe com.amil.predojo.App
+Para executar a partir do arquivo jar, execute o comando "java -jar nomeDoJar.jar"
+
+2. Forneca o path do arquivo de log da partida que se deseja obter o raking respeitando o formato do Sistema Operacional de execuacao. 
+Um arquivo modelo esta disponivel na pasta log do projeto.
+ex: workspace/pre-dojo/log/11348965.log
+
+3. O console devera imprimir a estatistica extraida do arquivo em questao.
+
+
+* A geracao do jar executavel pode ser obtida seguindo os passos abaixo na IDE Eclipse:
+
+01 - Clique com o botao direito em cima do seu projeto 
+02 - Selecione a opcao Export 
+03 - Abra a pasta Java 
+04 - Selecione JAR File 
+05 - Clique em Next 
+06 - Marque a opcao Export generated class files and resources 
+07 - Clique em Browse e selecione a pasta para salvar o JAR 
+08 - Clique em Next 
+09 - Clique novamente em Next 
+10 - No campo Main Class clique em Browse e selecione sua classe que possui o metodo main 
+11 - Clique em Finish
